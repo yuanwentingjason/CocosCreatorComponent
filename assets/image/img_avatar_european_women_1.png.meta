@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "7318fad2-c53d-4d3f-b56b-49a11150b7b3",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 120,
+  "height": 120,
+  "platformSettings": {},
+  "subMetas": {
+    "img_avatar_european_women_1": {
+      "ver": "1.0.4",
+      "uuid": "5925d1a7-f075-4a10-bd81-33ed28467338",
+      "rawTextureUuid": "7318fad2-c53d-4d3f-b56b-49a11150b7b3",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 120,
+      "height": 120,
+      "rawWidth": 120,
+      "rawHeight": 120,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

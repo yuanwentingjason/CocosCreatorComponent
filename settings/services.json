@@ -1,0 +1,22 @@
+{
+	"game": {
+		"name": "2048消除",
+		"appid": "677423038",
+		"cid": "0"
+	},
+	"configs": [
+		{
+			"appid": "677423038",
+			"services": [
+				{
+					"service_id": "272",
+					"enable": false
+				},
+				{
+					"service_id": "269",
+					"enable": false
+				}
+			]
+		}
+	]
+}

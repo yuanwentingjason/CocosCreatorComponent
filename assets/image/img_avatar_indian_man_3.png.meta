@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "4357d034-59fd-4f80-a4b4-da491b2ef08f",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 120,
+  "height": 120,
+  "platformSettings": {},
+  "subMetas": {
+    "img_avatar_indian_man_3": {
+      "ver": "1.0.4",
+      "uuid": "979c28d2-b622-4fa4-bf55-d33619b192dc",
+      "rawTextureUuid": "4357d034-59fd-4f80-a4b4-da491b2ef08f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 120,
+      "height": 120,
+      "rawWidth": 120,
+      "rawHeight": 120,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

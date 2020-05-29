@@ -1,0 +1,36 @@
+{
+  "ver": "2.3.4",
+  "uuid": "8627d4df-fd1f-41f4-adfa-2c59a063836d",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 120,
+  "height": 120,
+  "platformSettings": {},
+  "subMetas": {
+    "img_avatar_indian_women_1": {
+      "ver": "1.0.4",
+      "uuid": "2cd3cb04-2478-4047-bd0d-99c539be6408",
+      "rawTextureUuid": "8627d4df-fd1f-41f4-adfa-2c59a063836d",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 120,
+      "height": 120,
+      "rawWidth": 120,
+      "rawHeight": 120,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
