@@ -1,7 +1,8 @@
 
-const {ccclass, property} = cc._decorator;
+const {ccclass, property,executeInEditMode} = cc._decorator;
 
 @ccclass
+@executeInEditMode
 export default class LoadPrefab extends cc.Component {
 
     @property(cc.Prefab)
