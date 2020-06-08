@@ -26,7 +26,7 @@ export default class LoadPrefab extends cc.Component {
         this._prefabNode.active = true;
         this._prefabNode.setPosition(cc.Vec3.ZERO);
     }
-    getPrefabComp(component){
-        return this._prefabNode.getComponent(component);
+    getPrefabComp<T extends cc.Component>(component):T{
+        return this._prefabNode.getComponent<T>(component);
     }
 }

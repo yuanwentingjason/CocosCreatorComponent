@@ -7,15 +7,15 @@ export default class LineEmitter extends cc.Component {
     @property(cc.Prefab)
     prefab: cc.Prefab = null;
 
-    @property({type:cc.Float,displayName:"发射间隔"})
+    @property({type:cc.Float,tooltip:"发射间隔"})
     rate: number = 1;
-    @property({type:cc.Float,displayName:"移动速度"})
+    @property({type:cc.Float,tooltip:"移动速度"})
     speed:number = 1000;
-    @property({type:cc.Vec3,displayName:"偏移"})
+    @property({tooltip:"偏移"})
     offset:cc.Vec3 = cc.Vec3.ZERO;
-    @property({type:cc.Float,displayName:"子弹的初始角度"})
+    @property({type:cc.Float,tooltip:"子弹的初始角度"})
     rotation:number = 0;
-    @property({type:cc.Float,displayName:"旋转速度"})
+    @property({type:cc.Float,tooltip:"旋转速度"})
     rotSpeed:number = 0;
 
     start () {

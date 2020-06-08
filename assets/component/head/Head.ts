@@ -1,4 +1,5 @@
 import SpriteEx from "../spriteindex/SpriteEx";
+import { searchNode, searchComp } from "../../scripts/common/UITool";
 
 const {ccclass, property} = cc._decorator;
 enum SexType{
@@ -34,10 +35,13 @@ export default class Head extends cc.Component {
     private _height = 100;
     private _headIcon:cc.Sprite = null;
     private _sex:SpriteEx = null;
+    private _head:Head;
     onLoad(){
         //查找头像节点
-        let headNode = cc.find("headMask/_headIcon",this.node);
+        let headNode = searchNode(this.node,"_headIcon");
+        this._head = searchComp(this.node,"Head",Head);
         this._headIcon = headNode.getComponent(cc.Sprite);
+        //this._headIcon.spriteFrame = null;
         this._sex = cc.find("_sex",this.node).getComponent(SpriteEx);
         this._sex.node.active = false;
     }
