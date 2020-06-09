@@ -192,7 +192,7 @@
       "__id__": 1
     },
     "_enabled": true,
-    "prefab": {
+    "_prefab": {
       "__uuid__": "1332f480-ec52-44af-a527-bb20aeb9e5b3"
     },
     "parent": null,

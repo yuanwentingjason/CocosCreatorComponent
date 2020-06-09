@@ -174,7 +174,7 @@
       "array": [
         0,
         0,
-        439.93544083263595,
+        433.1750816554289,
         0,
         0,
         0,
@@ -264,8 +264,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
+      "width": 107,
+      "height": 171
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -416,7 +416,7 @@
       "__id__": 5
     },
     "_enabled": true,
-    "prefab": {
+    "_prefab": {
       "__uuid__": "1332f480-ec52-44af-a527-bb20aeb9e5b3"
     },
     "parent": null,
@@ -486,9 +486,7 @@
       "__id__": 2
     },
     "_enabled": true,
-    "prefab": {
-      "__uuid__": "254d29ea-28d0-44c0-b437-7114fe00f2f3"
-    },
+    "_prefab": null,
     "parent": null,
     "autoLoad": true,
     "_id": "b18XUDqfZFfZzYXsDR99/t"

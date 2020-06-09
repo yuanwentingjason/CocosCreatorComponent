@@ -180,7 +180,7 @@
       "array": [
         0,
         0,
-        554.2562584220408,
+        433.1750816554289,
         0,
         0,
         0,
@@ -433,7 +433,7 @@
       "__id__": 8
     },
     "_enabled": true,
-    "prefab": {
+    "_prefab": {
       "__uuid__": "c0de56d6-f4aa-41b4-8c20-b596a98e6989"
     },
     "parent": null,
@@ -465,8 +465,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 150,
-      "height": 150
+      "width": 100,
+      "height": 100
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -510,7 +510,7 @@
       "__id__": 10
     },
     "_enabled": true,
-    "prefab": {
+    "_prefab": {
       "__uuid__": "c0de56d6-f4aa-41b4-8c20-b596a98e6989"
     },
     "parent": null,
