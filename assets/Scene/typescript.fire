@@ -17,7 +17,7 @@
         "__id__": 2
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [],
     "_prefab": null,
     "_opacity": 255,
@@ -57,7 +57,8 @@
     "_is3DNode": true,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "10K6PrEOtJe7FDjx7/g85b"
+    "autoReleaseAssets": false,
+    "_id": "6f632b0f-ef83-4a84-a242-40f255f875ef"
   },
   {
     "__type__": "cc.Node",
@@ -170,7 +171,7 @@
       "array": [
         0,
         0,
-        433.1750816554289,
+        432.14147040376247,
         0,
         0,
         0,
