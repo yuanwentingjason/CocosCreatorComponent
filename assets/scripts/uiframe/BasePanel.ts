@@ -9,6 +9,7 @@ export default class BasePanel implements IPanel{
     protected _rootView: cc.Node;
     protected _layer : UILayerType = UILayerType.Main;
     protected _isDestroy : boolean = false;
+    private _isShowing:boolean = false; //是否正在显示
     constructor() {
         this._rootView = null;
     }
@@ -52,6 +53,12 @@ export default class BasePanel implements IPanel{
         }
         this.onShow(msg);
     }
+    public get isShowing() {
+        return this._isShowing;
+    }
+    public set isShowing(value){
+        this._isShowing  = value;
+    }
     public onCreate(msg?: any){
         if (this._rootView.parent == null) {
             UILayerManager.addWindow(this._layer,this._rootView);
@@ -66,6 +73,7 @@ export default class BasePanel implements IPanel{
         if(this._isDestroy){
             this._rootView.destroy();
         }
+        this._isShowing = false;
     }
 
     protected onShow(msg?: any) {

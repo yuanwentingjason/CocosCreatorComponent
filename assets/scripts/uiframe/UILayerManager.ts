@@ -7,10 +7,10 @@ import QueueLayer from "./QueueLayer";
 
 const ZINDEX = [0,50,100];
 export class UILayerManager {
-    private static _dictLayer = {};
+    private static _dictLayer = new Array<UILayer>();
     
     public static clear(): void {
-        this._dictLayer = {};
+        this._dictLayer.length = 0;
     }
 
     private static createUILayerPanel(layer: UILayerType): void {
@@ -40,6 +40,11 @@ export class UILayerManager {
         if (this._dictLayer[panel.layer] == null || !this._dictLayer[panel.layer].isValid) {
             this.createUILayerPanel(panel.layer);
         }
+        if(panel.isShowing){
+            cc.log(`UILayerManager panel isShowing name = ${panel.constructor.name}`);
+            return;
+        }
+        panel.isShowing = true;
         let layerCom = <UILayer>this._dictLayer[panel.layer];
         layerCom.push(panel,msg);
     }

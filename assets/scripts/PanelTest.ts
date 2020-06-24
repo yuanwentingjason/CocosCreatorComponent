@@ -15,7 +15,11 @@ export default class PanelTest extends cc.Component {
         WindowManager.open(MainPanel);
         WindowManager.open(PopPanel);
         WindowManager.open(Pop2Panel);
+        WindowManager.open(PopPanel);
+        WindowManager.open(Pop2Panel);
     }
-
+    onOpenPanel(){
+        WindowManager.open(Pop2Panel);
+    }
     // update (dt) {}
 }
